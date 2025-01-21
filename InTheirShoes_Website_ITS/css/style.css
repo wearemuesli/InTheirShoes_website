@@ -1,0 +1,232 @@
+
+@font-face {
+    font-family: Jost-Light;
+    src: url(../fonts/Jost-Light.ttf) format("truetype");
+}
+
+body{
+   color: white;
+   overflow: hidden;
+}
+
+.banner{
+    background-image: url("../img/Banner_XXL_ITS.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+  
+    height: 100vh;
+
+    position: relative;
+    padding-top: 70vh;
+}
+
+h1 {
+    font-size: 52px;
+    font-family: Oliver-newnew, sans-serif;
+
+    position:static;
+    display: flex;
+    justify-content: center; 
+    vertical-align: middle; 
+}
+
+p{
+    margin: 0;
+}
+
+.agameby {
+    font-size: 32px;
+    font-family: Oliver-newnew, sans-serif;
+
+    position:static;
+    display: flex;
+    justify-content: center; 
+    vertical-align: middle;  
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+    transition: all .5s;
+    transition: all .5s;
+}
+
+a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    font-size: 56px;
+    text-decoration: underline;
+    
+    transition: all .5s;
+    transition: all .5s;
+    transform: scale(1);
+    transform-origin:center center;
+  }
+
+  .comingsoon{
+    font-size: 24px;
+    font-family: Jost-Light, sans-serif;
+
+    color: #e5e5e5;
+
+    position:static;
+    display: flex;
+    justify-content: center; 
+    vertical-align: middle; 
+  }
+
+@font-face{
+    font-family: Oliver-newnew;
+    src: url("../fonts/Oliver-newnew.ttf") format("truetype");
+}
+@font-face{
+    font-family: Oliver-newnew;
+    src: url("../fonts/Oliver-newnew.ttf") format("truetype");
+}
+
+/* XL*/
+@media screen and (max-width: 1200px){
+    .banner{
+        background-image: url("../img/Banner_XL_ITS.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;    
+  
+        height: 100vh;
+
+        position: relative;
+        padding-top: 75vh;
+    }
+}
+/* LG*/
+@media screen and (max-width: 900px){
+    .banner{
+        background-image: url("../img/Banner_LG_ITS.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;    
+  
+        height: 100vh;
+
+        position: relative;
+        padding-top: 75vh;
+    }
+    .agameby {
+        font-size: 28px;
+        font-family: Oliver-newnew, sans-serif;
+    
+        position:static;
+        display: flex;
+        justify-content: center; 
+        vertical-align: middle;  
+    }        
+    h1 {
+        font-size: 44px;
+        font-family: Oliver-newnew, sans-serif;
+    
+        position:static;
+        display: flex;
+        justify-content: center; 
+        vertical-align: middle; 
+    }
+}
+/* MD */
+@media screen and (max-width: 768px){
+    .banner{
+        background-image: url("../img/Banner_MD_ITS.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;    
+  
+        height: 100vh;
+
+        position: relative;
+        padding-top: 70vh;
+    }
+    .agameby {
+        font-size: 28px;
+        font-family: Oliver-newnew, sans-serif;
+    
+        position:static;
+        display: flex;
+        justify-content: center; 
+        vertical-align: middle;  
+    }        
+    h1 {
+        font-size: 44px;
+        font-family: Oliver-newnew, sans-serif;
+    
+        position:static;
+        display: flex;
+        justify-content: center; 
+        vertical-align: middle; 
+    }
+}
+/* SM */
+@media screen and (max-width: 576px){
+    .banner{
+        background-image: url("../img/Banner_SM_ITS.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;    
+  
+        height: 100vh;
+
+        position: relative;
+        padding-top: 65vh;
+    }
+    .agameby {
+        font-size: 28px;
+        font-family: Oliver-newnew, sans-serif;
+    
+        position:static;
+        display: flex;
+        justify-content: center; 
+        vertical-align: middle;  
+    }        
+    h1 {
+        font-size: 44px;
+        font-family: Oliver-newnew, sans-serif;
+    
+        position:static;
+        display: flex;
+        justify-content: center; 
+        vertical-align: middle; 
+    }
+}
+/* XS */
+@media screen and (max-width: 300px){
+        .banner{
+            background-image: url("../img/Banner_XS_ITS.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;    
+  
+            height: 100vh;
+
+            position: relative;
+            padding-top: 70vh;
+        }
+        .agameby {
+            font-size: 20px;
+            font-family: Oliver-newnew, sans-serif;
+        
+            position:static;
+            display: flex;
+            justify-content: center; 
+            vertical-align: middle;  
+        }        
+        h1 {
+            font-size: 52px;
+            font-family: Oliver-newnew, sans-serif;
+        
+            position:static;
+            display: flex;
+            justify-content: center; 
+            vertical-align: middle; 
+        }
+}
