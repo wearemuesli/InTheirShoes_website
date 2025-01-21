@@ -1,9 +1,4 @@
 
-@font-face {
-    font-family: Jost-Light;
-    src: url(../fonts/Jost-Light.ttf) format("truetype");
-}
-
 body{
    color: white;
    overflow: hidden;
@@ -83,11 +78,10 @@ a:visited {
     font-family: Oliver-newnew;
     src: url("../fonts/Oliver-newnew.ttf") format("truetype");
 }
-@font-face{
-    font-family: Oliver-newnew;
-    src: url("../fonts/Oliver-newnew.ttf") format("truetype");
+@font-face {
+    font-family: Jost-Light;
+    src: url(../fonts/Jost-Light.ttf) format("truetype");
 }
-
 /* XL*/
 @media screen and (max-width: 1200px){
     .banner{
@@ -102,40 +96,8 @@ a:visited {
         padding-top: 75vh;
     }
 }
-/* LG*/
-@media screen and (max-width: 900px){
-    .banner{
-        background-image: url("../img/Banner_LG_ITS.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;    
-  
-        height: 100vh;
-
-        position: relative;
-        padding-top: 75vh;
-    }
-    .agameby {
-        font-size: 32px;
-        font-family: Oliver-newnew, sans-serif;
-    
-        position:static;
-        display: flex;
-        justify-content: center; 
-        vertical-align: middle;  
-    }        
-    h1 {
-        font-size: 52px;
-        font-family: Oliver-newnew, sans-serif;
-    
-        position:static;
-        display: flex;
-        justify-content: center; 
-        vertical-align: middle; 
-    }
-}
-/* MD */
-@media screen and (max-width: 768px){
+/* LG - tablet */
+@media screen and (max-width: 1024px){
     .banner{
         background-image: url("../img/Banner_MD_ITS.gif");
         background-repeat: no-repeat;
@@ -145,31 +107,13 @@ a:visited {
         height: 100vh;
 
         position: relative;
-        padding-top: 70vh;
-    }
-    .agameby {
-        font-size: 32px;
-        font-family: Oliver-newnew, sans-serif;
-    
-        position:static;
-        display: flex;
-        justify-content: center; 
-        vertical-align: middle;  
-    }        
-    h1 {
-        font-size: 52px;
-        font-family: Oliver-newnew, sans-serif;
-    
-        position:static;
-        display: flex;
-        justify-content: center; 
-        vertical-align: middle; 
+        padding-top: 75vh;
     }
 }
-/* SM */
-@media screen and (max-width: 500px){
+/* MD - phone */
+@media screen and (max-width: 768px){
     .banner{
-        background-image: url("../img/Banner_XS_ITS.gif");
+        background-image: url("../img/Banner_SM_ITS.gif");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;    
@@ -177,56 +121,6 @@ a:visited {
         height: 100vh;
 
         position: relative;
-        padding-top: 65vh;
-    }
-    .agameby {
-        font-size: 32px;
-        font-family: Oliver-newnew, sans-serif;
-    
-        position:static;
-        display: flex;
-        justify-content: center; 
-        vertical-align: middle;  
-    }        
-    h1 {
-        font-size: 52px;
-        font-family: Oliver-newnew, sans-serif;
-    
-        position:static;
-        display: flex;
-        justify-content: center; 
-        vertical-align: middle; 
+        padding-top: 60vh;
     }
 }
-/* XS */
-/* @media screen and (max-width: 300px){
-        .banner{
-            background-image: url("../img/Banner_XS_ITS.gif");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;    
-  
-            height: 100vh;
-
-            position: relative;
-            padding-top: 70vh;
-        }
-        .agameby {
-            font-size: 32px;
-            font-family: Oliver-newnew, sans-serif;
-        
-            position:static;
-            display: flex;
-            justify-content: center; 
-            vertical-align: middle;  
-        }        
-        h1 {
-            font-size: 52px;
-            font-family: Oliver-newnew, sans-serif;
-        
-            position:static;
-            display: flex;
-            justify-content: center; 
-            vertical-align: middle; 
-        }
-} */
