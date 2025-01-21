@@ -169,7 +169,7 @@ a:visited {
 /* SM */
 @media screen and (max-width: 576px){
     .banner{
-        background-image: url("../img/Banner_SM_ITS.gif");
+        background-image: url("../img/Banner_XS_ITS.gif");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;    
@@ -199,7 +199,7 @@ a:visited {
     }
 }
 /* XS */
-@media screen and (max-width: 300px){
+/* @media screen and (max-width: 300px){
         .banner{
             background-image: url("../img/Banner_XS_ITS.gif");
             background-repeat: no-repeat;
@@ -229,4 +229,4 @@ a:visited {
             justify-content: center; 
             vertical-align: middle; 
         }
-}
+} */
