@@ -112,7 +112,7 @@ a:visited {
 }
 /* MD - phone */
 @media screen and (max-width: 768px){
-    .banner{
+   .banner{
         background-image: url("../img/Banner_SM_ITS.gif");
         background-repeat: no-repeat;
         background-size: cover;
@@ -123,11 +123,11 @@ a:visited {
         position: relative;
         padding-top: 55vh;
     }
+   .agameby {
+      font-size: 18px;
+     }
    h1 {
       font-size: 30px;
-   }
-   .agameby {
-      font-size: 18 px;
    }
    .comingsoon {
       font-size: 18px;
