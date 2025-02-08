@@ -123,4 +123,13 @@ a:visited {
         position: relative;
         padding-top: 40vh;
     }
+   h1 {
+      font-size: 32px;
+   }
+   .agameby {
+      font-size: 24 px;
+   }
+   .comingsoon {
+      font-size: 20px;
+   }
 }
