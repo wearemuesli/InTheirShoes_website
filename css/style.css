@@ -1,4 +1,3 @@
-
 body{
    color: white;
    overflow: hidden;
@@ -124,12 +123,12 @@ a:visited {
         padding-top: 55vh;
     }
    .agameby {
-      font-size: 18px;
+      font-size: 18 px;
      }
    h1 {
-      font-size: 30px;
+      font-size: 30 px;
    }
    .comingsoon {
-      font-size: 18px;
+      font-size: 18 px;
    }
 }
